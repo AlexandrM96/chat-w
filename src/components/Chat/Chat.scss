@@ -1,0 +1,27 @@
+.Chat {
+
+background: rgba(18, 84, 18, 0.727);
+.Chat__container {
+display: flex;
+  flex-direction: column;
+  .Chat__container__incoming-message {
+    max-width: 800px;
+    text-align: start;
+    margin-bottom: 20px;
+    span {
+      padding: 5px 10px;
+      background: white;
+      border-radius: 10px;
+    }
+  }
+  .Chat__container__outgoing-messages {
+    text-align: end;
+    margin-bottom: 20px;
+    span {
+      padding: 5px 10px;
+      background: white;
+      border-radius: 10px;
+    }
+  }
+}
+}
